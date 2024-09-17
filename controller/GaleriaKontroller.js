@@ -1,15 +1,13 @@
-import GaleriaKontroller from "./controller/GaleriaKontroller.js"
-
-new GaleriaKontroller()
-
-
-
-/*import { kepekLISTA } from "./model/adat.js";
+import { kepekLISTA } from "./model/adat.js";
 import NagyKartya from "./view/NagyKartya.js";
 import Jatekter from "./view/Jatekter.js";
 import Modell from "./model/Model.js";
 
-
+export default class GaleriaKontroller{
+    constructor(){
+        
+    }
+}
 const taroloElem=$(".tartalom")
 const nagykepElem=$(".kivalasztott")
 
@@ -39,4 +37,4 @@ $(window).on("bal", (event)=>{
     if(index<0){kepekLISTA.length-1}
     nagykepElem.empty()
     new NagyKartya(kepekLISTA[index], nagykepElem)
-})*/
+})
